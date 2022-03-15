@@ -3,7 +3,8 @@
 git checkout base
 git branch -D patched
 git checkout -b patched
-git merge dwmlogo -m "dwmlogo"
+# git merge dwmlogo -m "dwmlogo"
+git merge message -m "message"
 git merge -Xtheirs config -m "config"
 # git merge autostart -m "autostart patch"
 # git merge attachbelow -m "attachbelow"
