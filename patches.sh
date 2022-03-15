@@ -4,6 +4,7 @@ git checkout base
 git branch -D patched
 git checkout -b patched
 git merge dwmlogo -m "dwmlogo"
+git merge -Xtheirs config -m "config"
 # git merge autostart -m "autostart patch"
 # git merge attachbelow -m "attachbelow"
 # git merge vanitygapss -m "vanitygaps: custom centered master"
@@ -11,4 +12,3 @@ git merge dwmlogo -m "dwmlogo"
 # git merge movestack -m "movestach patch"
 # git merge titlecolor -m "titlecolor"
 # git merge fixborders -m "fixborders"
-# git merge -Xtheirs config -m "custom config"
